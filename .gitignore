@@ -1,0 +1,30 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Node modules (if you add any build tools later)
+node_modules/
+npm-debug.log*
+
+# Optional: Uncomment if you want to ignore large image files
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
