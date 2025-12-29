@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Chennai Event Management - Get in touch for event planning services in Chennai">
+    <title>Contact Us - Chennai Event Management</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Chennai Events Management" onerror="this.style.display='none'">
+                    <span class="logo-text">Chennai<br><span class="logo-subtitle">Events Management</span></span>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Let's Plan Your Perfect Event Together</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="services">
+        <div class="container">
+            <div class="services-grid">
+                <!-- Contact Form -->
+                <div style="grid-column: 1 / -1;">
+                    <div class="service-card">
+                        <h2 class="section-title mb-40">Get In <span class="highlight">Touch</span></h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="eventType">Event Type *</label>
+                                <select id="eventType" name="eventType" required>
+                                    <option value="">Select Event Type</option>
+                                    <option value="wedding">Wedding & Reception</option>
+                                    <option value="corporate">Corporate Event</option>
+                                    <option value="conference">Conference & Seminar</option>
+                                    <option value="product-launch">Product Launch</option>
+                                    <option value="award-ceremony">Award Ceremony</option>
+                                    <option value="birthday">Birthday Party</option>
+                                    <option value="exhibition">Trade Show & Exhibition</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="eventDate">Expected Event Date</label>
+                                <input type="date" id="eventDate" name="eventDate">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="guestCount">Expected Number of Guests</label>
+                                <input type="number" id="guestCount" name="guestCount" placeholder="e.g., 100">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message / Requirements *</label>
+                                <textarea id="message" name="message" required placeholder="Tell us about your event requirements, budget, and any specific requests..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="about-preview">
+        <div class="container">
+            <p class="section-subtitle">Contact Information</p>
+            <h2 class="section-title">Reach Us <span class="highlight">Directly</span></h2>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Our Office</h3>
+                    <p>Chennai, Tamil Nadu<br>India</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p><a href="tel:+919876543210">+91 98765 43210</a><br>
+                    <a href="tel:+919876543211">+91 98765 43211</a></p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p><a href="mailto:info@chennaieventmanagement.com">info@chennaieventmanagement.com</a><br>
+                    <a href="mailto:events@chennaieventmanagement.com">events@chennaieventmanagement.com</a></p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p><a href="https://wa.me/919876543210" target="_blank">+91 98765 43210</a><br>
+                    Quick responses available</p>
+                </div>
+            </div>
+
+            <div class="cta-section mt-40">
+                <h3 class="section-title">Business Hours</h3>
+                <p class="about-text" style="margin-bottom: 0;">
+                    Monday - Saturday: 9:00 AM - 8:00 PM<br>
+                    Sunday: 10:00 AM - 6:00 PM<br>
+                    <em>Available 24/7 for event emergencies</em>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="services">
+        <div class="container">
+            <p class="section-subtitle">FAQ</p>
+            <h2 class="section-title">Frequently Asked <span class="highlight">Questions</span></h2>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-question"></i>
+                    </div>
+                    <h3>How far in advance should I book?</h3>
+                    <p>We recommend booking 3-6 months in advance for large events and weddings. For smaller events, 1-2 months is usually sufficient.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-question"></i>
+                    </div>
+                    <h3>What areas do you serve?</h3>
+                    <p>We primarily serve Chennai and surrounding areas in Tamil Nadu. For special events, we can arrange services across South India.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-question"></i>
+                    </div>
+                    <h3>Do you provide customized packages?</h3>
+                    <p>Yes! We create customized packages tailored to your specific needs, budget, and preferences. Every event is unique.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-question"></i>
+                    </div>
+                    <h3>What is your payment structure?</h3>
+                    <p>We typically require a 30% advance to confirm the booking, with the balance due before or on the event date. Payment plans available.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Placeholder) -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="service-card">
+                <h3 class="text-center mb-20">Find Us On Map</h3>
+                <div style="width: 100%; height: 400px; background: linear-gradient(135deg, #8B5CF6, #EC4899); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;">
+                    <div style="text-align: center;">
+                        <i class="fas fa-map-marked-alt" style="font-size: 60px; margin-bottom: 20px;"></i>
+                        <p>Map Integration Coming Soon</p>
+                        <p style="font-size: 14px; opacity: 0.8;">Visit us at Chennai, Tamil Nadu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Chennai Event Management</h3>
+                    <p>Creating perfect and memorable corporate and personal events that make an unforgettable impact.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#conferences">Conferences</a></li>
+                        <li><a href="services.html#weddings">Wedding Planning</a></li>
+                        <li><a href="services.html#corporate">Corporate Events</a></li>
+                        <li><a href="services.html#exhibitions">Trade Shows</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+919876543210">+91 98765 43210</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@chennaieventmanagement.com">info@chennaieventmanagement.com</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Chennai Event Management. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/919876543210" class="fab-btn whatsapp" target="_blank" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+919876543210" class="fab-btn call" aria-label="Call">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
